@@ -6,6 +6,7 @@ game.resources = [
 	 */
         
         {name: "background-tiles", type:"image", src: "data/img/background-tiles.png"},
+        {name: "meta-tiles", type:"image", src: "data/img/meta-tiles.png"},
         {name: "mario", type:"image", src: "data/img/player1.png"},
 
 	/* Atlases 
@@ -19,7 +20,8 @@ game.resources = [
 	 * {name: "example01", type: "tmx", src: "data/map/example01.json"},
  	 */
         
-        {name: "word1-1", type: "tmx", src: "data/map/word1-1.tmx"},
+        {name: "word1-1", type: "tmx", src: "data/map/NaregLevle01.tmx"},
+        {name: "word1-2", type: "tmx", src: "data/map/NaregLevle02.tmx"},
 
 	/* Background music. 
 	 * @example

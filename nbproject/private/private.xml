@@ -3,13 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/mario-DyerC/public_html/js/resources.js</file>
-            <file>file:/C:/xampp/htdocs/mario-DyerC/public_html/js/entities/entities.js</file>
-            <file>file:/C:/xampp/htdocs/mario-DyerC/public_html/js/game.js</file>
-            <file>file:/C:/xampp/htdocs/mario-DyerC/public_html/index.html</file>
-            <file>file:/C:/xampp/htdocs/mario-DyerC/public_html/js/screens/play.js</file>
-            <file>file:/C:/xampp/htdocs/mario-DyerC/public_html/data/img/background-tiles.png</file>
-            <file>file:/C:/xampp/htdocs/mario-DyerC/public_html/data/img/player1.png</file>
+            <file>file:/C:/xampp/htdocs/marioNaregA/public_html/js/resources.js</file>
+            <file>file:/C:/xampp/htdocs/marioNaregA/public_html/index.html</file>
+            <file>file:/C:/xampp/htdocs/marioNaregA/public_html/js/game.js</file>
+            <file>file:/C:/xampp/htdocs/marioNaregA/public_html/js/entities/entities.js</file>
         </group>
     </open-files>
 </project-private>
