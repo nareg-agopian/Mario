@@ -18,6 +18,7 @@ init: function(x, y, settings){
     this.renderable.setCurrentAnimation("idle");
    
     this.body.setVelocity(5, 20);
+    me.game.viewport.follow(this.pos, me.game.viewport.AXIS.BOTH);
         
     },
     
@@ -41,6 +42,7 @@ init: function(x, y, settings){
             this.renderable.setCurrentAnimation("idle");
         }
 
+            
         
         this._super(me.Entity, "update", [delta]);
         return true;
@@ -57,11 +59,14 @@ game.LevelTrigger = me.Entity.extend({
         this._super(me.Entity, 'init', [x, y, settings]);
         this.body.onCollision = this.onCollision.bind(this);
         this.level = settings.level;
+        this.xSpawn = settings.xSpawn;
+        this.ySpawn = settings.ySpawn;
     },
     
     onCollision: function(){
        this.body.setCollisionMask(me.collision.types.No_OBJECTS); 
        me.levelDirector.loadLevel(this.level);
+       me.state.current().resetPlayer(this.xSpawn, this.ySpawn);
     }
     
 });

@@ -28,6 +28,8 @@
   <object name="levelTrigger" x="910" y="420" width="70" height="142">
    <properties>
     <property name="level" value="word1-2"/>
+    <property name="xSpawn" value="400"/>
+    <property name="ySpawn" value="0"/>
    </properties>
   </object>
   <object x="972" y="552" width="6"/>
