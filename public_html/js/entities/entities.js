@@ -8,7 +8,7 @@ init: function(x, y, settings){
             width:128,
             height:128,
             getShape: function(){
-                return (new me.Rect(0, 0, 128, 128)).toPolygon();
+                return (new me.Rect(0, 0, 30, 128)).toPolygon();
             }
     }]);
 
@@ -26,8 +26,17 @@ init: function(x, y, settings){
       if(me.input.isKeyPressed("right")){
           this.body.vel.x += this.body.accel.x * me.timer.tick; 
           
+      }else if(me.input.isKeyPressed("left")){
+          this.body.vel.x -= this.body.accel.x / me.timer.tick;
+      
       }else{
-          this.body.vel.x = 5;
+          this.body.vel.x = 0;
+      }
+      
+      if(me.input.isKeyPressed("up")){
+          
+          this.body.vel.y -= this.body.accel.y * me.timer.tick;
+          
       }
       
       this.body.update(delta);
