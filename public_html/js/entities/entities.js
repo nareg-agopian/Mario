@@ -66,12 +66,12 @@ init: function(x, y, settings){
              response.b.alive = false;
         }else{
             me.state.change(me.state.MENU);
-        }    
+        }   
         
     }
     
-    
-});
+    }
+    });
 
 game.LevelTrigger = me.Entity.extend({
     init: function(x, y, settings){
